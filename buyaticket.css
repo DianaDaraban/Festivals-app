@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --FONTCOLOUR: #302e2e;
+    --GRADIENT: linear-gradient(0deg, hsla(327, 97%, 27%, 0.564) 15.2%, hsla(0, 98%, 55%, 0.314) 35.2%, hsla(54, 100%, 80%, 0.074), hsla(177, 92%, 29%, 0.264));
+    --GRADIENTBOX: linear-gradient(0deg, hsla(327, 97%, 19%, 0.964) 15.2%, hsla(0, 98%, 35%, 0.814) 35.2%, hsla(54, 100%, 75%, 0.674), hsla(177, 92%, 19%, 0.664));
+    --GRADIENTFILL: linear-gradient(to top, hsla(356, 51%, 61%, 0.6) 40%, hsla(177, 92%, 29%, 0.5));
+    --GRADIENTFILLDARK: linear-gradient(135.8deg, hsla(240, 62%, 15%, 0.774) 27.1%, hsla(0, 70%, 42%, 0.712) 77.5%);
+    --NAVCOLOUR: hwb(220 15% 78%);
+    --FONTCONTAINER: font-family: 'Raleway', sans-serif;
+    --BCKSECTIONS: hsla(0, 0%, 100%, 0.6);
+    --OUTLINESECTIONS: hsla(0, 0%, 100%, 0.719);
+    --BOTTOMBORDER: rgb(196, 20, 20);
+}
+.text {
+    white-space: nowrap;
+}
+.nowrap {
+    white-space: nowrap;
+}
+
+.box.six .description2 {
+    margin:0 2em 0 2em;
+    width: 50%;
+    height: 85%;
+    background-color: hsla(0, 0%, 100%, 0.466);
+    outline: 1px solid hsla(0, 0%, 100%, 0.719);
+    outline-offset: 8px;
+    /* background-color: crimson; */
+}
+
+.boxes .box:hover {
+    width: 100%;
+}
+
+/* my code */
+
+
+
+.description2 h3{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    /* background-color: blue; */
+}
+
+.descriptionfestival{
+    /* background-color: rgb(93, 93, 143); */
+    margin: 5px;
+}
+#list{
+    /* background-color: blueviolet; */
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+#name{
+    /* background-color: rgb(36, 3, 30); */
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+#email{
+    /* background-color: rgb(36, 3, 30); */
+    margin: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
+#phone{
+    /* background-color: rgb(36, 3, 30); */
+    margin: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
+#data-festival{
+    /* background-color: rgb(36, 3, 30); */
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+#stage-selection{
+    /* background-color: rgb(36, 3, 30); */
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+#message{
+    /* background-color: rgb(36, 3, 30);  */
+    margin: 5px;
+    width: 90%;
+    height: 30%;
+    
+}
+
+::placeholder{
+    padding: 5px;
+    /* color: chartreuse; */
+    width: 80%;
+    height: 55px;
+}
+
+#radio-button{
+    /* background-color: rgb(36, 3, 30); */
+    margin: 5px;
+}
+
+
+.icon-container{
+/* background-color: darkred; */
+display: flex;
+margin: 5px;
+padding: 5px;
+}
+
+.buttonbuy{
+    display: flex;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    margin-left: 150px;
+    padding: 5px;
+    margin-top: 25px;
+    
+
+}
+
+.icon-container i:nth-child(1){
+    /* background-color: blueviolet; */
+    color:navy;
+    margin: 5px;
+}
+
+.icon-container i:nth-child(1):hover{
+    /* background-color: blueviolet; */
+    color:navy;
+    /* background-color: chartreuse; */
+    margin: 5px;
+    transform: scale(2);
+}
+
+
+.icon-container i:nth-child(2){
+    /* background-color: blueviolet; */
+    color: blue;
+    margin: 5px;
+}
+
+.icon-container i:nth-child(2):hover{
+    /* background-color: blueviolet; */
+    color:blue;
+    /* background-color: chartreuse; */
+    margin: 5px;
+    transform: scale(2);
+}
+
+
+.icon-container i:nth-child(3){
+    /* background-color: blueviolet; */
+    color: red;
+    margin: 5px;
+}
+
+.icon-container i:nth-child(3):hover{
+    /* background-color: blueviolet; */
+    color:red;
+    /* background-color: chartreuse; */
+    margin: 5px;
+    transform: scale(2);
+}
+
+.icon-container i:nth-child(4){
+    /* background-color: blueviolet; */
+    color: orange;
+    margin: 5px;
+}
+
+.icon-container i:nth-child(4):hover{
+    /* background-color: blueviolet; */
+    color:orange;
+    /* background-color: chartreuse; */
+    margin: 5px;
+    transform: scale(2);
+}
+
+.description2 label{
+    /* background-color: rgb(217, 255, 0); */
+    margin: 5px; 
+    padding: 5px; 
+}
+
+.placeholder{
+    color:aquamarine
+}
+
+
+
+
+
+
+
+
